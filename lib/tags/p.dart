@@ -70,7 +70,7 @@ class P {
       TextStyle textStyle, bool selectable, TextConfig textConfig) {
     final config = StyleConfig().pConfig;
     return RichText(
-      softWrap: true,
+      softWrap: false,
       text: getBlockSpan(
         children,
         parentNode,
