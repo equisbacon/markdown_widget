@@ -71,6 +71,7 @@ class P {
     final config = StyleConfig().pConfig;
     return RichText(
       softWrap: false,
+      textWidthBasis: TextWidthBasis.longestLine,
       text: getBlockSpan(
         children,
         parentNode,
